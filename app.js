@@ -7,6 +7,17 @@ angular.module('myApp', ['ngAnimate'])
 			templateUrl: 'editable.html',
 			link: function(scope, element, attrs){
 				scope.editOrSave = 'Edit';
+				scope.edit = false;
+
+				scope.toggleEditableRegion = function(){
+					if(scope.editOrSave === 'Edit'){ 
+						scope.editOrSave = 'Save'
+						scope.edit = true;
+					} else if(scope.editOrSave === 'Save') {
+						scope.editOrSave = 'Edit'
+						scope.edit = false;
+					}
+				}
 			}
 		}
 
