@@ -16,7 +16,7 @@
 	margin: 1em;
 }
 
-[contenteditable]:focus p {
+.editable p {
 	background-color: #ffffcc;
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }
