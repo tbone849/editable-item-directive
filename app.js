@@ -1,7 +1,7 @@
 angular.module('myApp', ['ngAnimate'])
 	.directive('makeEditable', function(){
 		return {
-			restrict: 'A',
+			restrict: 'EA',
 			scope: true,
 			transclude: true,
 			templateUrl: 'editable.html',
