@@ -1,4 +1,4 @@
 <button class='button' ng-click='toggleEditableRegion()'>{{editOrSave}}</button>
-<div ng-transclude contenteditable='{{edit}}'>
+<div ng-transclude spellcheck="false" contenteditable='{{edit}}'>
 	<p>Random text to be edited</p>
 </div>
