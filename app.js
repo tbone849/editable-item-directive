@@ -1,4 +1,4 @@
-angular.module('myApp', ['ngAnimate'])
+angular.module('myApp', [])
 	.directive('makeEditable', function(){
 		return {
 			restrict: 'EA',
